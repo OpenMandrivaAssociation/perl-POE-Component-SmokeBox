@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 5
 
 Summary:    A backend for CPAN::Reporter::Smoker smokers
 License:    GPL+ or Artistic
@@ -24,6 +24,7 @@ BuildRequires: perl(String::Perl::Warnings)
 BuildRequires: perl(Test::Harness)
 BuildRequires: perl(Test::More)
 Requires: perl(Env::Sanctify)
+Requires: perl(Digest::SHA)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
