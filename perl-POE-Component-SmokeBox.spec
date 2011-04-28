@@ -1,9 +1,9 @@
 %define upstream_name    POE-Component-SmokeBox
-%define upstream_version 0.44
+%define upstream_version 0.46
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 6
+Release:    %mkrel 1
 
 Summary:    A backend for CPAN::Reporter::Smoker smokers
 License:    GPL+ or Artistic
