@@ -1,5 +1,5 @@
 %define upstream_name    POE-Component-SmokeBox
-%define upstream_version 0.46
+%define upstream_version 0.48
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
